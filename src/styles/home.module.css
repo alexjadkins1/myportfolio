@@ -1,0 +1,39 @@
+.header {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 40px;
+    align-items: center;
+}
+
+.header h2 {
+    font-size: 4em;
+}
+
+.header h3:first-of-type{
+    
+    margin-top: 30px;
+    
+}
+
+.header h3 {
+    font-size: 3em;
+    font-weight: 600;
+    margin-bottom: 20px;
+    
+    margin-top: 200px;
+    
+}
+
+.header p{
+    font-size: 2em;
+    font-weight: 300;
+}
+.btn {
+
+    display: inline-block;
+    background: red;
+    padding: 10px 16px;
+    margin-top: 20px;
+    font-weight: 500;
+
+}

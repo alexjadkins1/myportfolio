@@ -3,8 +3,26 @@
  */
 module.exports = {
   siteMetadata: {
-    title: `customPortfolio`,
-    siteUrl: `https://www.yourdomain.tld`,
+    title: `Alex Adkins Portfolio`,
+    siteUrl: `https://www.alexjadkins.com`,
   },
-  plugins: [],
+  plugins: [
+    `gatsby-plugin-image`,
+    `gatsby-plugin-sharp`,
+    `gatsby-transformer-sharp`,
+    `gatsby-transformer-remark`,
+    {
+      resolve: `gatsby-source-filesystem`,
+      options: {
+        name: `projects`,
+        path: `${__dirname}/src/projects`,
+      }
+    },
+    {
+      resolve: `gatsby-source-filesystem`,
+      options: {
+        path: `${__dirname}/static/images/thumbs`,
+      },
+    },
+  ],
 }

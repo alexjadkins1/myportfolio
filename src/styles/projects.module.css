@@ -1,0 +1,63 @@
+
+.projects {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-gap: 140px;
+    margin: 40px 20px;
+}
+
+
+@media only screen and (min-width: 600px){
+    .projects {
+        
+        grid-template-columns: 1fr 1fr 1fr;
+        
+    }
+}
+
+.projects h3 {
+    width: 400px;
+    height: 100px;
+    font-size: 2em;
+    text-align: left;
+    margin: 20px auto 0px;
+    font-weight: 400;
+}
+
+.projects h1 {
+    
+    font-size: 1em;
+    text-align: left;
+    margin: 20px auto 0px;
+    font-weight: 400;
+}
+
+.projects p {
+    font-size: 20px;
+    text-indent: 25px;
+
+    
+}
+
+.picture {
+
+    border-radius: 10px;
+    overflow: hidden;
+    width: 500 px;
+    height: 500 px;
+}
+
+.picture:hover{
+    box-shadow: 0 0 6px black;
+    top: -10px;
+}
+
+@media only screen and (min-width: 600px){
+
+    .picture{
+        width: 300 px;
+        height: 350 px;
+    }
+
+}
+
