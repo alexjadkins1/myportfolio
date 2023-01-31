@@ -6,6 +6,7 @@ import * as styles from '../styles/home.module.css'
 import * as pstyles from '../styles/projects.module.css'
 import { GatsbyImage, getImage } from "gatsby-plugin-image"
 
+
 // Step 2: Define your component
 const IndexPage = ({ data }) => {
   console.log(data)
@@ -16,9 +17,17 @@ const IndexPage = ({ data }) => {
       <section className={styles.header}>
       
       <div>
-        <h3>Hello there!</h3>
-        <p>I'm Alex Adkins, a recent computer science graduate.</p>
-        <p>Here is a compiled list of different projects I've worked on.</p>
+
+        
+
+        
+        
+       
+        
+       
+        
+        
+        
         
         
 
@@ -28,6 +37,7 @@ const IndexPage = ({ data }) => {
             {projects.map(project => (
              
 
+             <proj>
               <div>
                 <nav>
                 <type>{project.frontmatter.type}</type>
@@ -35,9 +45,9 @@ const IndexPage = ({ data }) => {
                 </nav>
                 <h3>{project.frontmatter.title}</h3>
                 
-                <div className={pstyles.picture}>
+                <div>
                   <a href={project.frontmatter.url} target="_blank" rel="noopener noreferrer">
-                    <GatsbyImage image = {getImage(project.frontmatter.image)}/>
+                    <GatsbyImage className = {pstyles.picture} image = {getImage(project.frontmatter.image)}/>
                   </a>
                 </div>
 
@@ -46,7 +56,7 @@ const IndexPage = ({ data }) => {
                 
                 <p>{project.frontmatter.text}</p>  
               </div>
-
+              </proj>
             ))}
         </div>
       </div>
@@ -71,8 +81,8 @@ query Projects {
        image {
         childImageSharp {
           gatsbyImageData(
-            height: 200,
-            width: 400, 
+            height: 550,
+            width: 900, 
             blurredOptions: {width: 100},
             placeholder: BLURRED,
             transformOptions: {cropFocus:CENTER},
