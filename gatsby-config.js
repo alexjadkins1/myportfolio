@@ -7,6 +7,7 @@ module.exports = {
     siteUrl: `https://www.alexjadkins.com`,
   },
   plugins: [
+    `gatsby-plugin-netlify`,
     `gatsby-plugin-image`,
     `gatsby-plugin-sharp`,
     `gatsby-transformer-sharp`,
