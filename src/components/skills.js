@@ -3,12 +3,9 @@ import React from 'react'
 export default function skill() {
     return (
 
-       <skills>
-
-
         
-       
-        
+       <skills id="skills">
+
         <languages>
             <h3>Languages</h3>
             <p></p>

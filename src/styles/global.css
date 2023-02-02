@@ -30,32 +30,53 @@ body {
     margin: 0 auto;
 }
 
+.layout footer{
+    text-align: center;
+}
+.layout h2{
+
+    font-size: 3em;
+    font-weight: 600;
+    margin-bottom: 20px;
+    text-align: center;
+    
+
+}
 nav {
     display: grid;
-    grid-template-columns: 1fr 1fr;
+    grid-template-columns: 1fr;
     margin: 40px auto;
 }
 
 nav .links{
-    display: inline-block;
-    text-align: right;
+    display: grid;
+    grid-template-columns: 1fr;
+    
     font-size: 2em;
     font-weight: 400;
+    margin-right: 20px;
+    margin-top: 20px;
 }
 
 nav h1{
 
-    font-size: 2em;
-    font-weight: 400;
-
+    text-align: center;
+    font-size: 4em;
+    font-weight: 600;
+    margin-left: 20px;
+    margin-bottom: 20px;
+    
 }
 
 nav a {
     display: inline-block;
+    text-align: center;
     margin-left: 40px;
     font-weight: 400;
-    padding-bottom: 8px;
+    padding-bottom: 18px;
     border-bottom: 3px solid transparent;
+    width: 170px;
+    margin-left: 120px;
 }
 
 nav a:hover{
@@ -93,6 +114,37 @@ intro{
         margin: 0 auto;
     }
 
+    .layout h2{
+
+        text-align: left;   
+    
+    }
+
+    nav {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        margin: 40px auto;
+    }
+
+    nav a {
+        width: auto;
+        margin-left: 50px;
+    }
+
+    nav h1{
+
+        text-align: left;
+        margin-left: 0px;
+        font-size: 2em;
+    }
+
+    nav .links{
+        display: inline-block;
+        margin-left: -100px;
+        text-align: right;
+        margin-top: 0px;
+    }
+
     intro{
 
         display: inline-block;
@@ -109,7 +161,7 @@ intro h3 {
     font-weight: 600;
     margin-bottom: 20px;
     
-    margin-top: 200px;
+    margin-top: 0px;
 
 }
 
@@ -126,8 +178,9 @@ intro p{
 
 intro greeting {
 
-    text-align: left;
-    width: 400px;
+    text-align: center;
+    width: 390px;
+    
 }
 
 intro gif {
@@ -153,6 +206,16 @@ img.animated-gif{
 
         text-align: right;
         
+    
+    }
+
+    intro h3 {
+
+        font-size: 3em;
+        font-weight: 600;
+        margin-bottom: 20px;
+        
+        margin-top: 200px;
     
     }
 
@@ -202,6 +265,28 @@ skills toolkits {
 }
 
 
+skills h3 {
+
+    
+    width: 400px;
+    height: 100px;
+    font-size: 2em;
+    text-align: left;
+    margin: 20px auto 0px;
+    font-weight: 600;
+    margin-bottom: -15px;
+    margin-left: 10px;
+}
+
+skills p {
+
+    text-align: left;
+    font-size: 25px;
+    text-indent: 0px;
+    margin-bottom: 5px;
+    margin-left: 120px;
+}
+
 @media only screen and (min-width: 600px){
 
 
@@ -249,29 +334,7 @@ skills toolkits {
 
     skills p {
 
-        
-        margin-left: 0px;
+        text-align: left;
+        margin-left: 50px;
     }
-}
-
-skills h3 {
-
-    
-    width: 400px;
-    height: 100px;
-    font-size: 2em;
-    text-align: left;
-    margin: 20px auto 0px;
-    font-weight: 600;
-    margin-bottom: -15px;
-    margin-left: 10px;
-}
-
-skills p {
-
-    text-align: left;
-    font-size: 25px;
-    text-indent: 0px;
-    margin-bottom: 5px;
-    margin-left: 50px;
 }

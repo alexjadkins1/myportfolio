@@ -7,6 +7,7 @@ module.exports = {
     siteUrl: `https://www.alexjadkins.com`,
   },
   plugins: [
+    `gatsby-plugin-anchor-links`,
     `gatsby-plugin-netlify`,
     `gatsby-plugin-image`,
     `gatsby-plugin-sharp`,
@@ -24,6 +25,18 @@ module.exports = {
       options: {
         path: `${__dirname}/static/images/thumbs`,
       },
+    },
+    {
+      resolve: 'gatsby-plugin-manifest',
+      options: {
+        icon: 'static/images/fav.png',
+      },
+    },
+    {
+      resolve: "gatsby-plugin-anchor-links",
+      options: {
+        offset: -100
+      }
     },
   ],
 }

@@ -7,6 +7,8 @@ import * as pstyles from '../styles/projects.module.css'
 import { GatsbyImage, getImage } from "gatsby-plugin-image"
 
 
+
+
 // Step 2: Define your component
 const IndexPage = ({ data }) => {
   console.log(data)
@@ -16,21 +18,9 @@ const IndexPage = ({ data }) => {
     <Layout>
       <section className={styles.header}>
       
-      <div>
+      <div id="proj">
 
-        
-
-        
-        
-       
-        
-       
-        
-        
-        
-        
-        
-
+ 
         <h3><b>Projects</b></h3>
         <div className={pstyles.projects}>
             
