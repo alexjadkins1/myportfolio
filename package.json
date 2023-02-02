@@ -25,5 +25,8 @@
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
     "react-pdf": "^6.2.2"
+  },
+  "engines": {
+    "node": "18.x"
   }
 }
