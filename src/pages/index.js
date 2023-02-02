@@ -88,7 +88,7 @@ query Projects {
 export const Head = () => (
   <>
     <title>alexjadkins portfolio</title>
-    <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover"></meta>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover"/>
   </>
 )
 export default IndexPage
