@@ -11,7 +11,10 @@ const IndexPage = ({ data }) => {
   const projects = data.allMarkdownRemark.nodes
 
   return (
+
+    
     <Layout>
+
       <section className={styles.header}>
       
       <div id="proj">
@@ -82,6 +85,10 @@ query Projects {
  }`
 
 
-export const Head = () => <title>alexjadkins portfolio</title>
-
+export const Head = () => (
+  <>
+    <title>alexjadkins portfolio</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover"></meta>
+  </>
+)
 export default IndexPage
