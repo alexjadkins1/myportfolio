@@ -17,6 +17,7 @@ html, body{
 
 body {
     background: radial-gradient(at top left, rgba(225,226,227,1) 0%, rgba(116,117,117,1) 100%);
+    
     background-repeat: no-repeat;
     background-size: cover;
     -o-background-size: cover;
