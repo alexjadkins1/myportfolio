@@ -5,27 +5,20 @@ export default function skill() {
 
        <skills>
 
-        <h3>Languages</h3>
-        <h3>Toolkits</h3>
+
+        
+       
+        
         <languages>
-            
-            
-            
-           
-            <p>C++</p>
-            
-            
+            <h3>Languages</h3>
+            <p></p>
             <p>C#</p>
-            
-            
-            <p>C</p>
-            
-            <p>Java</p>
-            
             <p>Python</p>
-            
+            <p>C++</p>
+            <p>Java</p>
+            <p>C</p>
+            <p>Chapel</p>
             <p>HTML/CSS</p>
-            
             <p>React</p>
             
         </languages>
@@ -33,13 +26,16 @@ export default function skill() {
         
        
         <toolkits>
-            
-        
-        
+            <h3>Toolkits</h3>
+            <p></p>
             <p>Unity</p>
-            <p>Unreal Engine 4</p>
+            <p>Unreal</p>
             <p>Git</p>
             <p>Gatsby</p>
+            <p>GraphQL</p>
+            <p>Node.js</p>
+            <p>Jira</p>
+            
        
         </toolkits>
 

@@ -1,6 +1,5 @@
 import React from 'react'
 import compGIF from '../gifs/cannonComp.gif'
-import * as styles from '../styles/home.module.css'
 
 export default function Intro() {
     return (
@@ -16,7 +15,7 @@ export default function Intro() {
             </greeting>
 
             <gif>
-                <date><img src={compGIF} alt="Cannonball the Clown using the computer"/></date>
+                <date><img class="animated-gif" src={compGIF} alt="Cannonball the Clown using the computer"/></date>
             </gif>
                   
         </intro>

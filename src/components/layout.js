@@ -10,11 +10,12 @@ export default function Layout({ children }) {
         <Navbar />
         <Intro />
         <Skill />
+        
         <div className="content">
             { children }
         </div>
 
-       
+        
         <footer>
             <p text-align='center'>Created using ReactJS and Gatsby SSG</p>
         </footer>
