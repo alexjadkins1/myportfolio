@@ -96,18 +96,8 @@ nav date {
 }
 
 
-/*Intro and Skills Styles*/
 
-intro{
-
-    display: inline-block;
-    display: grid;
-    grid-template-columns: 1fr;
-    margin: 40px auto;
-
-}
-
-@media only screen and (min-width: 600px){
+@media only screen and (min-width: 600px) and (min-height: 500px){
 
     .layout {
         max-width: 1400px;
@@ -145,16 +135,21 @@ intro{
         margin-top: 0px;
     }
 
-    intro{
-
-        display: inline-block;
-        display: grid;
-        grid-template-columns: 1fr 1fr;
-        margin: 40px auto;
-    
-    }
 
 }
+
+/*Intro and Skills Styles*/
+
+intro{
+
+    display: inline-block;
+    display: grid;
+    grid-template-columns: 1fr;
+    margin: 40px auto;
+
+}
+
+
 intro h3 {
 
     font-size: 3em;
@@ -179,7 +174,7 @@ intro p{
 intro greeting {
 
     text-align: center;
-    width: 390px;
+    width: 380px;
     
 }
 
@@ -194,7 +189,17 @@ img.animated-gif{
     height: auto;
 }
 
-@media only screen and (min-width: 600px){
+@media only screen and (min-width: 600px) and (min-height: 500px){
+
+    
+    intro{
+
+        display: inline-block;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        margin: 40px auto;
+    
+    }
 
     intro greeting {
 
@@ -217,6 +222,11 @@ img.animated-gif{
         
         margin-top: 200px;
     
+    }
+
+    img.animated-gif{
+        width: 512px;
+        height: auto;
     }
 
 }
@@ -243,8 +253,9 @@ skills languages {
     border-width: 25px;
     border-radius: 10px;
     margin-bottom: 15px;
-    margin-left: 10px;
-    width: 315px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 300px;
    
 }
 
@@ -259,8 +270,9 @@ skills toolkits {
     border-style: solid;
     border-radius: 10px;
     border-width: 25px;
-    margin-left: 10px;
-    width: 315px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 300px;
 
 }
 
@@ -287,13 +299,7 @@ skills p {
     margin-left: 120px;
 }
 
-@media only screen and (min-width: 600px){
-
-
-    img.animated-gif{
-        width: 512px;
-        height: auto;
-    }
+@media only screen and (min-width: 600px) and (min-height: 500px){
 
     skills{
 

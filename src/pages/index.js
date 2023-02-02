@@ -1,4 +1,3 @@
-// Step 1: Import React
 import { graphql } from 'gatsby'
 import * as React from 'react'
 import Layout from '../components/layout'
@@ -7,9 +6,6 @@ import * as pstyles from '../styles/projects.module.css'
 import { GatsbyImage, getImage } from "gatsby-plugin-image"
 
 
-
-
-// Step 2: Define your component
 const IndexPage = ({ data }) => {
   console.log(data)
   const projects = data.allMarkdownRemark.nodes
