@@ -89,7 +89,7 @@ export const Head = () => (
   <>
     <title>alexjadkins portfolio</title>
     <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover"/>
-    <meta name="theme-color" content="#E1E2E3"/>
+    <meta name="theme-color" content="#000000"/>
   </>
 )
 export default IndexPage
