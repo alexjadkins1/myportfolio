@@ -6,7 +6,7 @@
     text-decoration: none;
     font-family: 'Barlow', sans-serif;
     color: rgba(23,23,23,1);
-    
+    padding: env(safe-area-inset-top) env(safe-area-inset-right) env(safe-area-inset-bottom) env(safe-area-inset-left);
 }
 
 html, body{
@@ -19,7 +19,7 @@ body {
     background-repeat: no-repeat;
     background-size: cover;
     -o-background-size: cover;
-    padding: env(safe-area-inset-top) env(safe-area-inset-right) env(safe-area-inset-bottom) env(safe-area-inset-left);
+    
 }
 /*layout and navbar */
 
