@@ -12,13 +12,13 @@ export default function Layout({ children }) {
         <Intro />
 
         
-
+        <h2><b>Skills</b></h2>
+        <Skill />
         <div className="content">
             { children }
         </div>
 
-        <h2><b>Skills</b></h2>
-        <Skill />
+        
         
         <AboutMe />
         <footer>
