@@ -25,13 +25,15 @@ const IndexPage = ({ data }) => {
             
             {projects.map(project => (
              
-
+              
              <proj>
               <div>
-                <nav>
-                <type>{project.frontmatter.type}</type>
-                <date>{project.frontmatter.date}</date>
-                </nav>
+
+               
+                <p>{project.frontmatter.type}</p>
+                <p>{project.frontmatter.date}</p>
+               
+
                 <h3>{project.frontmatter.title}</h3>
                 
                 <div>
@@ -88,7 +90,6 @@ query Projects {
 export const Head = () => (
   <>
     <title>alexjadkins portfolio</title>
-    <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover"/>
     <meta name="theme-color" content="#000000"/>
   </>
 )

@@ -15,7 +15,7 @@ export default function Intro() {
             </greeting>
 
             <gif>
-                <date><img class="animated-gif" src={compGIF} alt="Cannonball the Clown using the computer"/></date>
+                <img class="animated-gif" src={compGIF} alt="Cannonball the Clown using the computer"/>
             </gif>
                   
         </intro>

@@ -46,6 +46,7 @@ nav {
     display: grid;
     grid-template-columns: 1fr;
     margin: 40px auto;
+    
 }
 
 nav .links{
@@ -83,13 +84,18 @@ nav a:hover{
     border-color: black;
 }
 
-nav type {
+.projectDataType {
+
+    display: grid;
+    grid-template-columns: 1fr;
+
+}
+.projectDateType type {
 
     text-align: left;
-    vertical-align: bottom;
 }
 
-nav date {
+.projectDateType date {
 
     text-align: right;
     
@@ -130,7 +136,7 @@ nav date {
 
     nav .links{
         display: inline-block;
-        margin-left: -100px;
+        margin-left: -220px;
         text-align: right;
         margin-top: 0px;
     }
@@ -143,9 +149,10 @@ nav date {
 intro{
 
     display: inline-block;
-    display: grid;
+    
     grid-template-columns: 1fr;
     margin: 40px auto;
+    
 
 }
 
@@ -180,13 +187,15 @@ intro greeting {
 
 intro gif {
 
-    text-align: left;
+    
     background-size: contain;
-
+    
+    
 }
 img.animated-gif{
-    width: 350px;
+    width: 250px;
     height: auto;
+    margin-left: 50px;
 }
 
 @media only screen and (min-width: 600px) and (min-height: 500px){
@@ -294,9 +303,9 @@ skills p {
 
     text-align: left;
     font-size: 25px;
-    text-indent: 0px;
+    
     margin-bottom: 5px;
-    margin-left: 120px;
+    margin-left: 12px;
 }
 
 @media only screen and (min-width: 600px) and (min-height: 500px){
@@ -343,4 +352,56 @@ skills p {
         text-align: left;
         margin-left: 50px;
     }
+
+    
+}
+
+about{
+
+    display: grid;
+    width: 300px;
+    margin-left: auto;
+    margin-right: auto;
+}
+about h3{
+
+    text-align: center;
+    font-size: 3em;
+    font-weight: 600;
+    margin-bottom: 20px;
+    
+    margin-top: 0px;
+        
+}
+
+about p{
+
+    text-align: left;
+    font-size: 1.5em;
+    font-weight: 300;
+   
+    margin-top: 25px;
+    margin-bottom: 25px;
+
+}
+
+@media only screen and (min-width: 600px) and (min-height: 500px){
+    
+    about{
+
+        width: 1400px;
+        
+    }
+
+    about h3{
+    
+        text-align: left;
+
+    }
+
+    about p{
+        
+        font-size: 2em;
+    }
+
 }
