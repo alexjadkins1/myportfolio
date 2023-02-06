@@ -10,7 +10,7 @@ export default function Navbar() {
             <a href="/resume.pdf">Resume</a>
             
             <a href="https://github.com/alexjadkins1" target="_blank" rel="noopener noreferrer">Github</a>
-            <a href="https://www.linkedin.com/in/alexander-adkins-877622206/" target="_blank" rel="noopener noreferrer">LinkedIn</a>
+            <a href="https://www.linkedin.com/in/alex-j-adkins" target="_blank" rel="noopener noreferrer">LinkedIn</a>
             <AnchorLink to="/#proj" title="Projects">
               Projects
             </AnchorLink>
