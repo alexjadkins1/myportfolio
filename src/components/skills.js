@@ -26,6 +26,7 @@ export default function skill() {
             <p></p>
             <p>Unity</p>
             <p>Unreal</p>
+            <p>wxWidgets</p>
             <p>Git</p>
             <p>Gatsby</p>
             <p>GraphQL</p>
