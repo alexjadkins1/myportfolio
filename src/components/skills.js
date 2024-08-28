@@ -14,7 +14,6 @@ export default function skill() {
             <p>C++</p>
             <p>Java</p>
             <p>C</p>
-            <p>Chapel</p>
             <p>HTML/CSS</p>
             <p>React</p>
             
@@ -32,7 +31,11 @@ export default function skill() {
             <p>GraphQL</p>
             <p>Node.js</p>
             <p>Jira</p>
-            
+            <p>VTK</p>
+            <p>OpenCV</p>
+            <p>Open3D</p>
+            <p>OpenGL</p>
+
        
         </toolkits>
 

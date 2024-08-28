@@ -10,8 +10,8 @@ export default function Intro() {
                     
             <greeting>
                 <h3>Hello there!</h3><br></br>
-                <p>I'm Alex Adkins, a recent computer science graduate. <br></br> 
-                Here's a compiled list of projects I've worked on.</p>
+                <p>I'm Alexander Adkins, a software engineer. <br></br> 
+                Here's a compilation of projects I've worked on.</p>
             </greeting>
 
             <gif>
