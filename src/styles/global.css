@@ -16,7 +16,7 @@ html, body{
 }
 
 body {
-    background: radial-gradient(at top left, rgba(225,226,227,1) 0%, rgba(116,117,117,1) 100%);
+    background: radial-gradient(at top left, rgba(255,255,255,1) 0%, rgba(242,240,239,1) 100%);
     
     background-repeat: no-repeat;
     background-size: cover;
@@ -261,7 +261,7 @@ skills languages {
     
     display: grid;
     grid-template-columns: 1fr;
-    background-color:  rgba(46,46,46,0.1);
+    background-color:  rgba(96, 98, 107, 0.1);
     border-color: rgba(46,46,46,0.001);
     border-style: solid;
     border-width: 25px;
@@ -279,7 +279,7 @@ skills toolkits {
   
     grid-template-columns: 1fr;
     display: grid;
-    background-color:  rgba(46,46,46,0.1);
+    background-color:  rgba(96, 98, 107, 0.1);
     border-color: rgba(46,46,46,0.001);
     border-style: solid;
     border-radius: 10px;
